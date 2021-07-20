@@ -1,6 +1,6 @@
 # Movie-Explorer: Data-Importer
 
-Mit diesem Skript können Sie den Import der im *JSON*-Format vorliegenden Filme in die benötigte SQLite-Datenbank automatisieren. Wir haben Ihnen dazu einen Teil des Skripts bereits vorgegeben. Sie müssen noch eine geeignete Datenbankstruktur erstellen und die SQL-Querys zum Eintragen der einzelnen Geschichten schreiben. Aktuell erstellt das Skript eine leere SQLite-Datenbank, iteriert über einen angegebenen Ordner und wandelt die dortigen Dateien in JavaScript-Objekte um, die einzelne Filme zu repräsentieren. Für jeden Film wird in dem zentralen Modul der Anwendung (`index.js`) einmal die *Callback*-Methode [`onMovieParsed`](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Data-Importer/blob/f52771ae246e492709ace06ae7ca98c2344eff80/index.js#L9) aufgerufen. Im Parameter finden Sie den jeweiligen Film, die bereits an das `DatabaseImporter`-Modul weitergeben wird. Dort müssen die Informationen aus dem JavaScript-Objekt dann in die SQLite-Datenbank übertragen werden.
+Mit diesem Skript können Sie den Import der im *JSON*-Format vorliegenden Filme in die benötigte SQLite-Datenbank automatisieren. Wir haben Ihnen dazu einen Teil des Skripts bereits vorgegeben. Sie müssen noch eine geeignete Datenbankstruktur erstellen und die SQL-Querys zum Eintragen der einzelnen Geschichten schreiben. Aktuell erstellt das Skript eine leere SQLite-Datenbank, iteriert über einen angegebenen Ordner und wandelt die dortigen Dateien in JavaScript-Objekte um, die einzelne Filme zu repräsentieren. Für jeden Film wird in dem zentralen Modul der Anwendung (`index.js`) einmal die *Callback*-Methode [`onMovieParsed`](hhttps://github.com/Webtechnologien-Regensburg/Movie-Explorer-Data-Importer/blob/7d654d74ccb324b71b97fab1401cccea78942380/index.js#L9) aufgerufen. Im Parameter finden Sie den jeweiligen Film, die bereits an das `DatabaseImporter`-Modul weitergeben wird. Dort müssen die Informationen aus dem JavaScript-Objekt dann in die SQLite-Datenbank übertragen werden.
 
 **Bei Fragen zu diesem Teil der Aufgabe wenden Sie sich bitte an Alexander Bazo.**
 
@@ -27,11 +27,11 @@ Der Skript funktioniert mit den JSON-formatierten *Movie*-Dateien, die wir Ihnen
 }
 ```
 
-Der Skript exportiert alle relevanten Informationen aus diesen Dateien. Die exportierten Daten werden innerhalb des Skripts als [Movie-Prototyp](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Data-Importer/blob/f52771ae246e492709ace06ae7ca98c2344eff80/lib/StoryParser.js#L41) abgebildet und kommuniziert.
+Der Skript exportiert alle relevanten Informationen aus diesen Dateien. Die exportierten Daten werden innerhalb des Skripts als [Movie-Prototyp](https://github.com/Webtechnologien-Regensburg/Movie-Explorer-Data-Importer/blob/7d654d74ccb324b71b97fab1401cccea78942380/lib/MovieParser.js#L14) abgebildet und kommuniziert.
 
 ## Vorbereitung
 
-- Laden Sie den Quellcode über [diesen Link](https://github.com/Webtechnologien-Regensburg/Fan-Fiction-Data-Importer/archive/master.zip) herunter. 
+- Laden Sie den Quellcode über [diesen Link](https://github.com/Webtechnologien-Regensburg/Movie-Explorer-Data-Importer/archive/refs/heads/master.zip) herunter. 
 - Führen Sie im Projektverzeichnis, in einer Kommandozeile, den Befehl `npm install` aus, um alle notwendigen Abhängigkeiten zu installieren.
 - Erstellen Sie einen Ordner `data` im Projektverzeichnis und kopieren Sie die bereitgestellten JSON-Dateien dort hinein
 
