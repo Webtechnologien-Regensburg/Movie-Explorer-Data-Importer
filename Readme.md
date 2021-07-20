@@ -6,7 +6,7 @@ Mit diesem Skript können Sie den Import der im *JSON*-Format vorliegenden Filme
 
 ## Grundlagen
 
-Der Skript funktioniert mit den JSON-formatierten *Movie*-Dateien, die wir Ihnen in einem separaten Datensatz bereitgestellt haben. Den Aufbau der Dateien können Sie anhand diesem Beispiels nachvollziehen:
+Der Skript funktioniert mit den JSON-formatierten *Movie*-Dateien, die wir Ihnen in einem separaten Datensatz bereitgestellt haben. Diese Daten haben wir aus der [Open Movie Database](https://www.omdbapi.com/) extrahiert. Über diesen _Importer_ werden die Daten für die weitere Verwendung in den Projekten angepasst. Dabei werden die einzelnen Datensätze, die innerhalb der JSON-Dateien vollständig vorliegen, auf die notwendigen Informationen für die Realisierung des _Movie Explorer_ reduziert:
 
 ```
 { 
