@@ -7,7 +7,6 @@ let dbFile = process.argv[2],
     dataPath = process.argv[3];
 
 function onMovieParsed(movie) {
-    console.log(movie);
     DatabaseImporter.importMovie(movie);
 }
 

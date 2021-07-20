@@ -23,7 +23,8 @@ Der Skript funktioniert mit den JSON-formatierten *Movie*-Dateien, die wir Ihnen
   },
   ,{
     "name": "Richard Attenborough"
-  }]
+  }],
+  poster: "https://m.media-amazon.com/images/M/MV5BZTFjNjU4OTktYzljMS00MmFlLWI3NGEtNjNhMTYwYzUyZDgyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
 }
 ```
 
