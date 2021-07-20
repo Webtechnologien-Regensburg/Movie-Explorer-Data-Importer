@@ -28,7 +28,7 @@ Der Skript funktioniert mit den JSON-formatierten *Movie*-Dateien, die wir Ihnen
 }
 ```
 
-Der Skript exportiert alle relevanten Informationen aus diesen Dateien. Die exportierten Daten werden innerhalb des Skripts als [Movie-Prototyp](https://github.com/Webtechnologien-Regensburg/Movie-Explorer-Data-Importer/blob/7d654d74ccb324b71b97fab1401cccea78942380/lib/MovieParser.js#L14) abgebildet und kommuniziert.
+Der Skript exportiert alle relevanten Informationen aus diesen Dateien. Die exportierten Daten werden innerhalb des Skripts als [Movie-Prototyp](https://github.com/Webtechnologien-Regensburg/Movie-Explorer-Data-Importer/blob/7d654d74ccb324b71b97fab1401cccea78942380/lib/MovieParser.js#L14) abgebildet und kommuniziert. Sie können bei Bedarf weitere Filme ergänzen, in dem Sie die JSON formatierten Daten über [dieses Anfrageformular](https://www.omdbapi.com/#examples) erstellen und in einzelnen `*.json`-Dateien im Ordner `data` abspeichern.
 
 ## Vorbereitung
 
